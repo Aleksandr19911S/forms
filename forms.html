@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="forms.css">
+    <title>Forms</title>
+</head>
+<body>
+<main> 
+    <form action="" method="get" name="">
+        <p>
+            <label for="name">Имя пользователя:</label>
+            <input type="text" name="name" id="name"placeholder = "Укажите имя" >
+        </p>
+        <p>
+            <label for="email">Электронная почта:</label>
+            <input type="email" name="email" id="email" placeholder="Укажите email" required>
+        </p>
+        <p>
+            <label for="select">Что вы хотите изучать:</label>
+            <select name="" id="select">
+                <option value="HTML">HTML</option>
+                <option value="PHP">PHP</option>
+                <option value="BITRIX">BITRIX</option>
+                <option value="CSS">CSS</option>
+            </select>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Хочу быть...</legend>
+                <input type="radio" name="radio" value="Junior PHP Developer">Junior PHP Developer
+                <input type="radio" name="radio" value="Middle PHP Developer">Middle PHP Developer
+                <input type="radio" name="radio" value="Front-end Developer">Front-end Developer
+                <input type="radio" name="radio" value="Неее, хочу быть дизайнером">Неее, хочу быть дизайнером
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Мои навыки программирования</legend>
+                <input type="checkbox" name="check" value="Бог программирования">Бог программирования
+                <input type="checkbox" name="check" value="Гуру программирования">Гуру программирования
+                <input type="checkbox" name="check" value="Эмм, я еще учусь">Эмм, я еще учусь
+            </fieldset>
+        </p>
+        <p>
+            <label for="date">Во сколько мне удобно приходить на занятия:</label>
+            <input type="date" name="date" id="date">
+        </p>
+        <p>
+            <label for="text">Мои пожелания и комментарии по курсам:</label><br>
+            <textarea name="comment" id="text" cols="80" rows="10" placeholder="Ваши пожелания"></textarea><br>
+        </p>
+        <p>
+            <button type="submit">Всё, я справился с заполнением формы</button>
+        </p>
+    </form>
+</main>
+</body>
+</html>
